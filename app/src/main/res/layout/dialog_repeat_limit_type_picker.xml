@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_repeat_type_picker_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/dialog_radio_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_margin">
+
+        <com.simplemobiletools.commons.views.MyCompatRadioButton
+            android:id="@+id/repeat_type_till_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repeat_till_date" />
+
+        <com.simplemobiletools.commons.views.MyTextInputLayout
+            android:id="@+id/repeat_type_date_hint"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/repeat_type_margin_start"
+            android:hint="@string/value">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/repeat_type_date"
+                style="@style/UnclickableEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.simplemobiletools.commons.views.MyTextInputLayout>
+
+        <com.simplemobiletools.commons.views.MyCompatRadioButton
+            android:id="@+id/repeat_type_x_times"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@string/stop_repeating_after_x" />
+
+        <com.simplemobiletools.commons.views.MyTextInputLayout
+            android:id="@+id/repeat_type_count_hint"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/repeat_type_margin_start"
+            android:hint="@string/value">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/repeat_type_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/bigger_text_size" />
+
+        </com.simplemobiletools.commons.views.MyTextInputLayout>
+
+        <com.simplemobiletools.commons.views.MyCompatRadioButton
+            android:id="@+id/repeat_type_forever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@string/repeat_forever" />
+
+    </RadioGroup>
+</ScrollView>

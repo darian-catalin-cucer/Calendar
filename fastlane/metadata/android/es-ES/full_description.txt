@@ -1,0 +1,58 @@
+Calendario Sencillo 2022 es una aplicación de calendario mensual sin conexión altamente personalizable para Android. Tenga un planificador de calendario en su bolsillo, diseñado para hacer exactamente lo debe hacer en pleno 2022. Sin funciones complicadas, permisos innecesarios o anuncios. Soporta la sincronización de los eventos a través de Google Calendar u otros calendarios que soporten el protocolo CalDAV.
+
+Toma el control de tu tiempo
+Tanto si buscas un calendario de trabajo para la empresa, un planificador para tus días, programar citas, organizar o eventos únicos y recurrentes (cumpleaños, aniversarios, recordatorios de citas o cualquier otra cosa), Calendario Sencillo 2022 hace que sea fácil mantenerse organizado. El widget del calendario tiene una increíble variedad de opciones para adaptarse a ti: personaliza los recordatorios de eventos, la apariencia de las notificaciones, el pequeño widget de los recordatorios en el calendario y el aspecto en general.
+
+Planificador de horarios: Planifica tu día, programa citas, planificador mensual y organiza toda la familia todo en una sola aplicación. Consulte su próxima agenda, programe reuniones o eventos de negocios y reserve citas fácilmente. Los recordatorios te mantendrán puntualmente informado en tu aplicación para la planificación diaria.
+
+Características del Calendario Sencillo 2022:
+
+✔️ La mejor experiencia para el usuario
+➕ Sin anuncios ni molestas ventanas emergentes, ¡una experiencia para el usuario realmente genial!
+➕ No se necesita acceso a Internet, lo que da más privacidad, seguridad y estabilidad
+
+✔️ Flexibilidad para la productividad
+➕ El widget del calendario soporta la exportación e importación de eventos a través de archivos .ics
+➕ Exporta los ajustes a archivos .txt para compartirlo con otros dispositivos
+➕ Crea fácilmente eventos: horarios, duración, recordatorios, potentes reglas de recurrencia
+➕ Soporta CalDAV para sincronizar eventos a través de Google Calendar, Microsoft Outlook, Nextcloud, Exchange, etc
+
+✔️ Personalizado sólo para ti
+➕ Programador de horarios: personaliza y cambia el sonido, la intensidad y duración del audio y las vibraciones
+➕ Widget de calendario: calendarios coloridos y temas personalizables
+➕ Un gran calendario de código abierto, traducido a más de 45 idiomas
+➕ Planifica tu día con los demás: tienes la posibilidad de compartir rápidamente los eventos en las redes sociales, correos electrónicos, etc
+
+
+✔️ Organiza y gestiona el tiempo
+➕ Planificor diario: le ayudará a organizar su día a día
+➕ Planificador semanal: adelantarse a su apretada agenda semanal nunca ha sido más fácil
+➕ Programador de citas: organice y mantenga su agenda con facilidad
+➕ Aplicación de agenda: planifique eventos personales fácilmente, recordatorios de citas y horarios
+➕ Planifica tu día: gestiona tu día con este planificador de horarios para Android, organizador para eventos y familias
+
+✔️ Aplicación de Calendario Número 1
+➕ Importa vacaciones, cumpleaños de los contactos y aniversarios fácilmente
+➕ Filtrar eventos personales rápidamente por tipo de evento
+➕ Calendario diario y la ubicación de los eventos, mostrados en un mapa
+➕ Calendario empresarial rápido, o calendario digital personal
+➕ Cambia rápidamente entre las vistas diaria, semanal, mensual, anual
+
+DESCARGAR CALENDARIO SENCILLO - ¡PLANIFICADOR DE HORARIOS Y AGENDAS OFFLINE Y SIN PUBLICIDAD! ¡PLANIFICA TU AGENDA DEL 2022!
+
+No contiene anuncios ni permisos innecesarios. Es totalmente de código abierto, proporciona colores personalizables.
+
+Consulta el conjunto completo de Simple Mobile Tools aquí:
+https://www.simplemobiletools.com
+
+Sitio web independiente de Calendario Sencillo Pro:
+https://www.simplemobiletools.com/calendar
+
+Facebook:
+https://www.facebook.com/simplemobiletools
+
+Reddit:
+https://www.reddit.com/r/SimpleMobileTools
+
+Telegram:
+https://t.me/SimpleMobileTools

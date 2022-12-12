@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lihtne kalender</string>
+    <string name="app_launcher_name">Kalender</string>
+    <string name="change_view">Muuda vaadet</string>
+    <string name="daily_view">Päevavaade</string>
+    <string name="weekly_view">Nädalavaade</string>
+    <string name="monthly_view">Kuuvaade</string>
+    <string name="monthly_daily_view">Kuu- ja päevavaade</string>
+    <string name="yearly_view">Aastavaade</string>
+    <string name="simple_event_list">Lihtne sündmuste loend</string>
+    <string name="no_upcoming_events">Tundub, et sul pole eelseisvaid sündmusi.</string>
+    <string name="go_to_today">Vaata tänast päeva</string>
+    <string name="go_to_date">Vaata kuupäeva</string>
+    <string name="upgraded_from_free">Tšau
+\n
+\nTundub, et täiendasite vanast tasuta rakendusest. Peate kohalikult salvestatud sündmused käsitsi migreerima, eksportides .ics faili ja seejärel importides. Mõlemad ekspordi/impordi nupud leiad peaekraani menüüst.
+\n
+\nSeejärel saate desinstallida vana versiooni, mille rakenduse seadete ülaosas on nupp \"Uuenda Pro-le\". Seejärel peate lähtestama ainult rakenduse seaded.
+\n
+\nTänud!</string>
+    <!-- Widget titles -->
+    <string name="widget_monthly">Kalender igakuiselt</string>
+    <string name="widget_list">Kalendri sündmuste nimekiri</string>
+    <string name="widget_todays_date">Kalendri tänane kuupäev</string>
+    <!-- Event -->
+    <string name="event">Sündmus</string>
+    <string name="edit_event">Muuda sündmust</string>
+    <string name="new_event">Uus sündmus</string>
+    <string name="create_new_event">Loo uus sündmus</string>
+    <string name="duplicate_event">Kopeeri sündmus</string>
+    <string name="title_empty">Pealkiri ei saa jääda tühjaks</string>
+    <string name="end_before_start">Sündmus ei saa lõppeda enne algust</string>
+    <string name="event_added">Sündmuse lisamine õnnestus</string>
+    <string name="event_updated">Sündmuse muutmine õnnestus</string>
+    <string name="filter_events_by_type">Sündmuste filtreerimine tüübi järgi</string>
+    <string name="please_fill_location">Palun kirjelda kaardil näidatav asukoht</string>
+    <string name="public_event_notification_text">Sündmus on algamas</string>
+    <string name="saving_filtered_out">Salvestamine... Kuid valitud sündmuse tüüp filtreeritakse välja ülemises menüüs - Filter</string>
+    <!-- Tasks -->
+    <string name="task">Ülesanne</string>
+    <string name="tasks">Ülesanded</string>
+    <string name="edit_task">Muuda ülesannet</string>
+    <string name="new_task">Uus ülesanne</string>
+    <string name="create_new_task">Loo uus ülesanne</string>
+    <string name="duplicate_task">Tee ülesandest koopia</string>
+    <string name="mark_completed">Märgi tehtuks</string>
+    <string name="mark_incomplete">Märgi poolikuks</string>
+    <!-- Event Repetition -->
+    <string name="repetition">Kordus</string>
+    <string name="no_repetition">Ära korda</string>
+    <string name="daily">Iga päev</string>
+    <string name="weekly">Iga nädal</string>
+    <string name="monthly">Iga kuu</string>
+    <string name="yearly">Iga aasta</string>
+    <string name="weeks_raw">nädalad</string>
+    <string name="months_raw">kuud</string>
+    <string name="years_raw">aastad</string>
+    <string name="repeat_till">Korda kuni</string>
+    <string name="forever">Igavesti</string>
+    <string name="event_is_repeatable">Sündmus on korratav</string>
+    <string name="task_is_repeatable">Ülesanne on korratav</string>
+    <string name="selection_contains_repetition">Valik sisaldab korduvaid sündmusi</string>
+    <string name="delete_one_only">Kustutage ainult valitud esinemine</string>
+    <string name="delete_future_occurrences">Kustuta see ja kõik tulevased esinemised</string>
+    <string name="delete_all_occurrences">Kustuta kõik esinemised</string>
+    <string name="update_one_only">Ainult valitud esinemise uuendamine</string>
+    <string name="update_this_and_future_occurrences">Uuendage seda ja kõiki tulevasi juhtumeid</string>
+    <string name="update_all_occurrences">Värskenda kõiki esinemisi</string>
+    <string name="repeat_till_date">Korrake kuni kuupäevani</string>
+    <string name="stop_repeating_after_x">Lõpeta kordamine pärast x kordust</string>
+    <string name="repeat_forever">Korda igavesti</string>
+    <string name="times">korda</string>
+    <string name="repeat">Kordus</string>
+    <string name="repeat_on">Kordus edasi</string>
+    <string name="selected_days">Valitud päevadel</string>
+    <string name="the_same_day">Samal päeval</string>
+    <string name="the_last_day">Viimane päev</string>
+    <string name="repeat_on_the_same_day_monthly">Kordus igal kuul samal päeval</string>
+    <string name="repeat_on_the_last_day_monthly">Korda kuu viimasel päeval</string>
+    <string name="repeat_on_the_same_day_yearly">Kordus igal aastal samal päeval</string>
+    <string name="repeat_every_m">Korrake iga</string>
+    <string name="every_m">Iga</string>
+    <string name="first_m">esimene</string>
+    <string name="second_m">teine</string>
+    <string name="third_m">kolmas</string>
+    <string name="fourth_m">neljas</string>
+    <string name="fifth_m">viies</string>
+    <string name="last_m">viimane</string>
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every first Sunday" -->
+    <string name="repeat_every_f">Korrake iga</string>
+    <string name="every_f">Iga</string>
+    <string name="first_f">esimene</string>
+    <string name="second_f">teine</string>
+    <string name="third_f">kolmas</string>
+    <string name="fourth_f">neljas</string>
+    <string name="fifth_f">viies</string>
+    <string name="last_f">viimane</string>
+    <!-- Birthdays -->
+    <string name="birthdays">Sünnipäevad</string>
+    <string name="add_birthdays">Lisa kontaktide sünnipäevad</string>
+    <string name="no_birthdays">Sünnipäevi ei ole leitud</string>
+    <string name="no_new_birthdays">Uusi sünnipäevi ei ole leitud</string>
+    <string name="birthdays_added">Sünnipäevad edukalt lisatud</string>
+    <string name="add_birthdays_automatically">Lisage uued sünnipäevad automaatselt</string>
+    <!-- Anniversaries -->
+    <string name="anniversaries">Aastapäevad</string>
+    <string name="add_anniversaries">Lisa kontakti tähtpäevad</string>
+    <string name="no_anniversaries">Aastapäevi ei ole leitud</string>
+    <string name="no_new_anniversaries">Uusi aastapäevi ei ole leitud</string>
+    <string name="anniversaries_added">Aastapäevad lisatud edukalt</string>
+    <string name="add_anniversaries_automatically">Lisage uued aastapäevad automaatselt</string>
+    <!-- Event Reminders -->
+    <string name="reminder">Meeldetuletus</string>
+    <string name="before">enne</string>
+    <string name="add_another_reminder">Lisa veel üks meeldetuletus</string>
+    <string name="event_reminders">Sündmuse meeldetuletused</string>
+    <string name="reminders">Meeldetuletused</string>
+    <!-- Event attendees -->
+    <string name="add_another_attendee">Lisage veel üks osaleja</string>
+    <string name="my_status">Minu staatus:</string>
+    <string name="going">Läheb</string>
+    <string name="not_going">Ei lähe</string>
+    <string name="maybe_going">Võib-olla läheb</string>
+    <string name="invited">Kutsutud</string>
+    <!-- Time zones -->
+    <string name="enter_a_country">Sisestage riik või ajavöönd</string>
+    <!-- Export / Import -->
+    <string name="import_events">Sündmuste importimine</string>
+    <string name="export_events">Sündmuste eksportimine</string>
+    <string name="import_events_from_ics">Sündmuste importimine .ics failist</string>
+    <string name="import_events_from_ics_pro">Sündmuste importimine .ics failist (Pro)</string>
+    <string name="export_events_to_ics">Sündmuste eksportimine .ics faili</string>
+    <string name="default_event_type">Sündmuse tüüp vaikimis</string>
+    <string name="export_past_events_too">Ekspordi ka minevikus toimunud sündmused</string>
+    <string name="include_event_types">Kaasa arvatud sündmuse tüübid</string>
+    <string name="filename_without_ics">Failinimi (ilma .ics-ta)</string>
+    <string name="ignore_event_types">Ignoreeri sündmuse tüübid failis, kasutada alati vaikimisi üks</string>
+    <!-- Event details -->
+    <string name="location">Asukoht</string>
+    <string name="description">Kirjeldus</string>
+    <string name="all_day">Kogu päeva</string>
+    <!-- Weekly view -->
+    <string name="week">Nädal</string>
+    <string name="start_week_with_current_day">Nädala algus jooksva päevaga</string>
+    <!-- Event types -->
+    <string name="event_types">Sündmuse tüübid</string>
+    <string name="add_new_type">Uue tüübi lisamine</string>
+    <string name="edit_type">Redigeerimise tüüp</string>
+    <string name="type_already_exists">Selle pealkirjaga tüüp on juba olemas</string>
+    <string name="color">Värv</string>
+    <string name="regular_event">Regulaarne sündmus</string>
+    <string name="cannot_delete_default_type">Vaikimisi sündmuse tüüpi ei saa kustutada</string>
+    <string name="select_event_type">Valige sündmuse tüüp</string>
+    <string name="move_events_into_default">Liigutage mõjutatud sündmused vaikimisi sündmuse tüüpi</string>
+    <string name="remove_affected_events">Eemalda vastavad sündmused püsivalt</string>
+    <string name="unsync_caldav_calendar">CalDAV-põhise kalendri eemaldamiseks pead tema sünkroniseerimise lõpetama</string>
+    <!-- Holidays -->
+    <string name="holidays">Pühad</string>
+    <string name="add_holidays">Lisa püha</string>
+    <string name="national_holidays">Riiklikud pühad</string>
+    <string name="religious_holidays">Usulised pühad</string>
+    <string name="holidays_imported_successfully">Pühad on edukalt imporditud sündmuse tüüpi \"Pühad\"</string>
+    <string name="importing_some_holidays_failed">Mõne sündmuse importimine ebaõnnestus</string>
+    <string name="importing_holidays_failed">Puhkuste importimine ebaõnnestus</string>
+    <!-- Settings -->
+    <string name="manage_event_types">Sündmuse tüüpide haldamine</string>
+    <string name="start_day_at">Alusta päeva kell</string>
+    <string name="end_day_at">Lõpppäev kell</string>
+    <string name="midnight_spanning">Näita üle kesköö kestvaid sündmusi ülemisel ribal</string>
+    <string name="allow_customizing_day_count">Võimaldab päevade arvu kohandamist</string>
+    <string name="week_numbers">Näita nädala numbreid</string>
+    <string name="vibrate">Värinateade meeldetuletuse korral</string>
+    <string name="reminder_sound">Meeldetuletuse heli</string>
+    <string name="no_ringtone_picker">Ei leitud ühtegi rakendust, mis suudaks helinat seadistada</string>
+    <string name="no_ringtone_selected">Ükski</string>
+    <string name="day_end_before_start">Päev ei saa lõppeda varem, kui ta algab</string>
+    <string name="caldav_sync">CalDAV sünkroonimine</string>
+    <string name="event_lists">Sündmuste nimekirjad</string>
+    <string name="display_past_events">Näita sündmusi minevikust</string>
+    <string name="replace_description_with_location">Asenda sündmuse kirjeldus asukohaga</string>
+    <string name="display_description_or_location">Kuva kirjeldus või asukoht</string>
+    <string name="delete_all_events">Kustuta kõik sündmused</string>
+    <string name="delete_all_events_confirmation">Kas olete kindel, et soovite kõik sündmused kustutada\? See jätab teie sündmuste tüübid ja muud seadistused puutumata.</string>
+    <string name="show_a_grid">Näita ruudustikku</string>
+    <string name="loop_reminders">Silmus meeldetuletused kuni vallandamiseni</string>
+    <string name="dim_past_events">Hämardage minevikusündmusi</string>
+    <string name="dim_completed_tasks">Hämarad täidetud ülesanded</string>
+    <string name="events">Sündmused</string>
+    <string name="reminder_stream">Meeldetuletuste poolt kasutatav helivoog</string>
+    <string name="system_stream">Süsteem</string>
+    <string name="alarm_stream">Häire</string>
+    <string name="notification_stream">Teavitamine</string>
+    <string name="ring_stream">Sõrmus</string>
+    <string name="use_last_event_reminders">Kasutage uute sündmuste puhul vaikimisi viimaste sündmuste meeldetuletusi</string>
+    <string name="default_reminder_1">Vaikimisi meeldetuletus 1</string>
+    <string name="default_reminder_2">Vaikimisi meeldetuletus 2</string>
+    <string name="default_reminder_3">Vaikimisi meeldetuletus 3</string>
+    <string name="view_to_open_from_widget">Vaata, et avada sündmuste loendi vidin</string>
+    <string name="last_view">Viimane vaade</string>
+    <string name="new_events">Uued sündmused</string>
+    <string name="default_start_time">Vaikimisi algusaeg</string>
+    <string name="next_full_hour">Järgmine täistund</string>
+    <string name="current_time">Praegune aeg</string>
+    <string name="default_duration">Vaikimisi kestus</string>
+    <string name="last_used_one">Viimati kasutatud üks</string>
+    <string name="other_time">Muu aeg</string>
+    <string name="highlight_weekends">Esiletõstetud nädalavahetused mõnedel vaadetel</string>
+    <string name="highlight_weekends_color">Esile tõstetud nädalavahetuste värv</string>
+    <string name="allow_changing_time_zones">Võimaldab sündmuse ajavööndite muutmist</string>
+    <string name="manage_quick_filter_event_types">Sündmuse tüüpide kiire filtri haldamine</string>
+    <string name="allow_creating_tasks">Võimaldab ülesannete loomist</string>
+    <!-- CalDAV sync -->
+    <string name="caldav">CalDAV</string>
+    <string name="select_caldav_calendars">Valige sünkroniseeritavad kalendrid</string>
+    <string name="manage_synced_calendars">Sünkroonitud kalendrite haldamine</string>
+    <string name="store_locally_only">Säilitada ainult kohapeal</string>
+    <string name="refresh_caldav_calendars">CalDAV-kalendrite värskendamine</string>
+    <string name="refreshing">Värskendav…</string>
+    <string name="refreshing_complete">Värskendav täielik</string>
+    <string name="editing_calendar_failed">Kalendri redigeerimine ebaõnnestus</string>
+    <string name="syncing">Sünkroonimine…</string>
+    <string name="synchronization_completed">Sünkroonimine lõpetatud</string>
+    <string name="select_a_different_caldav_color">Valige teistsugune värv (võib olla rakendatud ainult lokaalselt)</string>
+    <string name="insufficient_permissions">Valitud kalendrisse ei ole lubatud kirjutada</string>
+    <string name="caldav_event_not_found">Sündmust ei leitud. Palun lubage rakenduse seadetes vastava kalendri jaoks CalDAV-sünkroonimine.</string>
+    <string name="no_synchronized_calendars">Sünkroniseeritavaid kalendreid ei ole leitud</string>
+    <string name="status_free">Tasuta</string>
+    <string name="status_busy">Hõivatud</string>
+    <string name="fetching_event_failed">Sündmuse %s kättesaamine ebaõnnestus</string>
+    <!-- alternative versions for some languages, use the same translations if you are not sure what this means -->
+    <!-- used in repetition, like "Every last Sunday" -->
+    <string name="monday_alt">Esmaspäev</string>
+    <string name="tuesday_alt">Teisipäev</string>
+    <string name="wednesday_alt">Kolmapäev</string>
+    <string name="thursday_alt">Neljapäev</string>
+    <string name="friday_alt">Reede</string>
+    <string name="saturday_alt">Laupäeval</string>
+    <string name="sunday_alt">Pühapäev</string>
+    <!-- List widget config example events -->
+    <string name="sample_title_1">Treening</string>
+    <string name="sample_description_1">Jalgade päev</string>
+    <string name="sample_title_2">Kohtumine Johniga</string>
+    <string name="sample_description_2">Rockstone\'i aias</string>
+    <string name="sample_title_3">Raamatukogu</string>
+    <string name="sample_title_4">Lõunasöök Maryga</string>
+    <string name="sample_description_4">Plazas</string>
+    <string name="sample_title_5">Kohvi aeg</string>
+    <!-- List widget config -->
+    <string name="show_events_happening">Näita sündmusi, mis toimuvad:</string>
+    <string name="within_the_next_one_year">Järgmise 1 aasta jooksul</string>
+    <string name="today_only">Ainult täna</string>
+    <string name="within_the_next">Järgmise aja jooksul…</string>
+    <plurals name="within_the_next_days">
+        <item quantity="one">Järgmise %d päev jooksul</item>
+        <item quantity="other">Järgmise %d päeva jooksul</item>
+    </plurals>
+    <plurals name="within_the_next_weeks">
+        <item quantity="one">Järgmise %d nädala jooksul</item>
+        <item quantity="other">Järgmise %d nädalat jooksul</item>
+    </plurals>
+    <plurals name="within_the_next_months">
+        <item quantity="one">Järgmise %d kuu jooksul</item>
+        <item quantity="other">Järgmise %d kuud jooksul</item>
+    </plurals>
+    <!-- FAQ -->
+    <string name="faq_1_title">Kuidas ma saan eemaldada nupu \"Lisa pühad\" kaudu imporditud pühad\?</string>
+    <string name="faq_1_text">Sel viisil loodud pühad lisatakse uude sündmuse tüüpi nimega \"Pühad\". Saate minna menüüsse Seaded -&gt; Sündmuste tüübid haldamine, vajutada pikalt antud sündmuse tüübile ja kustutada selle, valides prügikasti.</string>
+    <string name="faq_2_title">Kas ma saan oma sündmusi sünkroonida Google\'i kalendri või mõne muu CalDAVi toetava teenuse kaudu\?</string>
+    <string name="faq_2_title_extra">Võib-olla isegi soovid jagada kalendreid teiste inimestega\?</string>
+    <string name="faq_2_text">Jah, lülitage rakenduse seadetes lihtsalt \"CalDAV-sünkroonimine\" ja valige kalendrid, mida soovite sünkroonida. Siiski on teil vaja mõnda kolmanda osapoole rakendust, mis tegeleb seadme ja serverite vahelise sünkroniseerimisega. Juhul, kui soovite sünkroonida Google\'i kalendrit, teeb seda tööd nende ametlik kalenderrakendus. Teiste kalendrite jaoks vajate kolmanda osapoole sünkroonimisadapterit, näiteks DAVx5.</string>
+    <string name="faq_3_title">Ma näen visuaalseid meeldetuletusi, kuid ei kuule heli. Mida ma saan teha\?</string>
+    <string name="faq_3_text">Mitte ainult tegeliku meeldetuletuse kuvamine, vaid ka heli esitamine on süsteemist väga mõjutatud. Kui te ei kuule mingit heli, proovige minna rakenduse seadistustesse, vajutada valikut \"Audio stream used by reminders\" ja muuta see teise väärtuse peale. Kui see ikka veel ei tööta, kontrollige oma heliseadistusi, kas konkreetne voog ei ole vaigistatud.</string>
+    <string name="faq_4_title">Kas rakendus toetab ajavööndeid\?</string>
+    <string name="faq_4_text">Jah, on. Vaikimisi luuakse kõik sündmused teie praeguses ajavööndis. Kui soovite sündmuste ajavööndit muuta, peate esmalt rakenduses seadetes aktiveerima ajavööndi valiku ja seejärel muutma seda sündmuse üksikasjade ekraanil. See on vaikimisi välja lülitatud, kuna enamik inimesi seda ei vaja.</string>
+    <string name="faq_5_title">Rakendus ei näita teateid, miks see nii on\?</string>
+    <string name="faq_5_text">Kontrollige seadme akut ja märguannete seadeid, kui miski ei blokeeri meeldetuletusi ega tapa rakendust taustal. Samuti võiksite heita pilgu &lt;a href=https://dontkillmyapp.com&gt;https://dontkillmyapp.com&lt;/a&gt;, sellel on mõned kasulikud näpunäited.</string>
+    <string name="faq_6_title">Kuidas saab olemasolevat sündmuse tüüpi muuta või kustutada\?</string>
+    <string name="faq_6_text">Mõlemat saate teha rakenduses Seaded - Sündmuse tüüpide haldamine. Lihtsalt klõpsake soovitud tüübil sildi ja värvi muutmiseks või valige soovitud tüüp pika vajutusega ja kasutage kustutamiseks ülemises menüüs olevat prügikasti.</string>
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/export_events_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/export_events_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_margin">
+
+        <com.simplemobiletools.commons.views.MyTextInputLayout
+            android:id="@+id/export_events_folder_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginEnd="@dimen/activity_margin"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:hint="@string/folder">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/export_events_folder"
+                style="@style/UnclickableEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.simplemobiletools.commons.views.MyTextInputLayout>
+
+        <com.simplemobiletools.commons.views.MyTextInputLayout
+            android:id="@+id/export_events_filename_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginEnd="@dimen/activity_margin"
+            android:hint="@string/filename_without_ics">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/export_events_filename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:singleLine="true"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/bigger_text_size" />
+
+        </com.simplemobiletools.commons.views.MyTextInputLayout>
+
+        <RelativeLayout
+            android:id="@+id/export_past_events_checkbox_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingStart="@dimen/normal_margin"
+            android:paddingTop="@dimen/medium_margin"
+            android:paddingEnd="@dimen/activity_margin"
+            android:paddingBottom="@dimen/medium_margin">
+
+            <com.simplemobiletools.commons.views.MyAppCompatCheckbox
+                android:id="@+id/export_past_events_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clickable="false"
+                android:layoutDirection="rtl"
+                android:padding="@dimen/medium_margin"
+                android:text="@string/export_past_events_too" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/export_events_pick_types"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/export_events_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/medium_margin"
+                android:background="@color/divider_grey"
+                android:importantForAccessibility="no" />
+
+            <com.simplemobiletools.commons.views.MyTextView
+                android:id="@+id/export_events_pick_types_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/small_margin"
+                android:text="@string/include_event_types"
+                android:textSize="@dimen/smaller_text_size" />
+
+            <com.simplemobiletools.commons.views.MyRecyclerView
+                android:id="@+id/export_events_types_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingTop="@dimen/medium_margin"
+                app:layoutManager="com.simplemobiletools.commons.views.MyLinearLayoutManager" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
