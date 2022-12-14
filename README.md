@@ -1,0 +1,1 @@
+Periods in a calendar (such as years and months) are usually, though not necessarily, synchronized with the cycle of the sun or the moon. The most common type of pre-modern calendar was the lunisolar calendar, a lunar calendar that occasionally adds one intercalary month to remain synchronized with the solar year over the long term.
